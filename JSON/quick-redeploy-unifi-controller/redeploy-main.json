@@ -1,4 +1,4 @@
-{
+6{
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
@@ -28,10 +28,10 @@
     },
     "ubuntuOSVersion": {
       "type": "string",
-      "defaultValue": "14.04.2-LTS",
+      "defaultValue": "16.04.3-LTS",
       "allowedValues": [
-        "14.04.2-LTS",
-        "15.04"
+        "16.04.3-LTS",
+        "17.10"
       ],
       "metadata": {
         "description": "The Ubuntu version for the VM. This will pick a fully patched image of this given Ubuntu version. Allowed values: 14.04.2-LTS, 15.04."
